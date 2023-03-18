@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tt</title>
+    <style media="screen">
+      .contrainer {
+        display: flex;
+        height: 90vx;
+
+      }
+      .item {
+        padding: 40px;
+        font-size: 25px;
+        border: 1px solid black;
+        height: fit-content;
+        width: fit-content;
+      }
+      .item_1 {
+
+        flex-shrink: 4;
+        flex-grow: 1;
+      }
+      .item_2 {
+
+        flex-grow: 5;
+      }
+      .item_3 {
+        flex-grow: 1;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contrainer">
+
+      <div class="item item_1">
+        1
+      </div>
+
+      <div class="item item_2">
+        2
+      </div>
+
+      <div class="item item_3">
+        3
+      </div>
+    </div>
+  </body>
+</html>
